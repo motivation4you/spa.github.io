@@ -1,0 +1,12 @@
+section.content section.wrapper {
+    max-width: 1200px;
+}
+section.content section.wrapper h4 {
+    text-align: left;
+    font-size: 1.4em;
+}
+hr {
+    border-color: #8883;
+    border-width: 1px;
+    border-bottom-width: 0;
+}

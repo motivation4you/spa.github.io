@@ -1,0 +1,73 @@
+.header-section {
+    background: url(https://images.pexels.com/photos/374148/pexels-photo-374148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260), #888;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 30%;
+    min-height: 50vh;
+}
+header.header {
+    background: #fff;
+    margin-bottom: 15vh;
+}
+.header-section .top-title h1 {
+    color: #fff;
+}
+.header-section .top-title span {
+    text-transform: uppercase;
+}
+.header-section {
+    padding-bottom: 150px;
+}
+.header-section .top-title span a:hover {
+    text-shadow: 0 0 4px #ff817e;
+}
+section.content {
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+section.content section.wrapper {
+    max-width: 500px;
+}
+section.content img{
+    max-width: 500px;
+}
+section.content p,
+section.content h3 {
+    text-align: left;
+    font-size: 16px;
+    line-height: 28px;
+}
+section.content span,
+section.content li {
+    line-height: 28px;
+    font-size: 15px;
+}
+section.content h3 {
+    font-size: 1.3em;
+}
+a.back {
+    margin: 0 auto;
+    margin-top: 30px;
+    text-shadow: none;
+}
+a.back i {
+    transition: .2s;
+}
+a.back:hover i {
+    transform: translateX(-5px);
+}
+@media screen and (max-width: 540px) {
+    section.content {
+        padding: 100px 20px;
+    }
+    section.content img {
+        width: 100%
+    }
+}
+@media screen and (max-width: 1240px) {
+    .header-section .top-title {
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,7 @@
+.header-section .top-title p {
+    color: #ccc;
+}
+.header-section {
+    background-image: url(https://images.pexels.com/photos/3610006/pexels-photo-3610006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-position: center ;
+}

@@ -1,0 +1,60 @@
+.header-section {
+    background-image: url(https://images.pexels.com/photos/374911/pexels-photo-374911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+.items-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap;
+}
+.items-wrapper .item {
+    width: 280px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    margin: 10px;
+    margin-bottom: 50px;
+    background-position: center;
+}
+.items-wrapper a:hover {
+    text-shadow: none;
+}
+.items-wrapper .item .inscription {
+    width: 80%;
+    position: relative;
+    height: 90px;
+    background: #fff;
+    padding-top: 15px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+.items-wrapper .item .inscription span {
+    font-size: 1.1em;
+    transition: .3s;
+}
+.items-wrapper .item:hover .inscription {
+    transform: translate(-50%, -70%);
+    box-shadow: 0 0 30px  #263a4166;
+    background: #263a41;
+}
+.items-wrapper .item:hover .inscription span {
+    color: #fff;
+}
+@media screen and (max-width: 1220px) {
+    .items-wrapper {
+        max-width: 900px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .items-wrapper {
+        max-width: 600px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .items-wrapper {
+        max-width: 300px;
+    }
+}

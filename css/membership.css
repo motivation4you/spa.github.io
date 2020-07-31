@@ -1,0 +1,14 @@
+h4 {
+    text-align: left;
+}
+.header-section {
+    background-image: url(https://images.pexels.com/photos/3764175/pexels-photo-3764175.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+section.content li {
+    text-align: left;
+    list-style: disc;
+    list-style-position: inside;
+}
+section.content h3.mn-title {
+    text-align: center;
+}
